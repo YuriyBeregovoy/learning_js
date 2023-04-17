@@ -15,3 +15,7 @@ const shouldConfirm = false;
 // const shouldRenew = confirm('продовжити підписку?')
 // console.log(shouldRenew);
 
+// let quantity = prompt('Введіть кількість товарів');
+// quantity = Number(quantity);
+// console.log(quantity);
+// console.log(typeof quantity);
