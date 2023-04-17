@@ -19,3 +19,6 @@ const shouldConfirm = false;
 // quantity = Number(quantity);
 // console.log(quantity);
 // console.log(typeof quantity);
+// let elementWidth = '50px;'
+// elementWidth = Number.parseInt(elementWidth);
+// console.log('elementWidth', elementWidth);
