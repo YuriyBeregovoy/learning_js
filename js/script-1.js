@@ -5,11 +5,13 @@ const message = 'Welcome';
 const isOpen = true;
 const shouldConfirm = false;
 
+// console.log('ціна', totalPrice);
 
+// const type = typeof true;
+// console.log(type);
 
-console.log('ціна', totalPrice);
+// alert(userName);
 
-const type = typeof true;
-console.log(type);
+// const shouldRenew = confirm('продовжити підписку?')
+// console.log(shouldRenew);
 
-alert(userName);
