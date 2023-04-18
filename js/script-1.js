@@ -140,3 +140,15 @@ let number = 15;
 // const canOpenChat = isOnline && isFriend && !isDnd;
 // console.log('Можна відкрити чат? ', canOpenChat);
 
+// Оператор розгалуження else...if/////////////
+
+// const salary = 1500;
+// if (salary <= 500) {
+//   console.log('Рівень 1');
+// } else if (salary > 500 && salary <= 1500) {
+//   console.log('Рівень 2');
+// } else if (salary > 1500 && salary < 3000) { 
+//   console.log('Рівень 3');
+// } else {
+//   console.log('Рівень 4');
+// }
