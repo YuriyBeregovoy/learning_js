@@ -147,8 +147,14 @@ let number = 15;
 //   console.log('Рівень 1');
 // } else if (salary > 500 && salary <= 1500) {
 //   console.log('Рівень 2');
-// } else if (salary > 1500 && salary < 3000) { 
+// } else if (salary > 1500 && salary < 3000) {
 //   console.log('Рівень 3');
 // } else {
 //   console.log('Рівень 4');
 // }
+
+// ТЕРНАРНИЙ ОПЕРАТОР///////////////
+// тільки для подвійної умови: або / або
+
+// (const message = умова ? вираз1 : вираз2;)
+// const message = balance >= 0 ? 'Позитивний баланс' : 'Негативний баланс';
