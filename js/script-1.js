@@ -41,7 +41,6 @@
 // const lastName = 'Emerald';
 // const fullName = firstName + lastName;
 // console.log(fullName);
-
 // const room = 716;
 // const type = 'VIP';
 
@@ -54,10 +53,21 @@
 
 
 // Нормалізація з методом toLowerCase()
+
 // let brand = 'Samsung';
 // brand = brand.toLowerCase();
 // console.log(brand);
-
 // let brand = prompt('Давай бренд');
 // brand = brand.toLowerCase();
 // console.log(brand);
+
+// Пошук в строці з методом  includes():
+
+// const blacklistedWord1 = 'спам';
+// const blacklistedWord2 = 'розпродаж';
+// const string1 = 'Привіт, це не спам'
+// const string2 = 'Найьільший РОЗПРОДАЖ'
+// const string3 = 'Рекламна кампанія #fatlivesmatter';
+// console.log(string1.includes(blacklistedWord1));
+// console.log(string1.includes(blacklistedWord2));
+
