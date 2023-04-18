@@ -51,3 +51,13 @@
 // Короткий варіант (по новому):
 // const welcomeMsg = `Гість ${firstName} ${lastName} заселяється у ${type} номер ${room}`;
 // console.log(welcomeMsg);
+
+
+// Нормалізація з методом toLowerCase()
+// let brand = 'Samsung';
+// brand = brand.toLowerCase();
+// console.log(brand);
+
+// let brand = prompt('Давай бренд');
+// brand = brand.toLowerCase();
+// console.log(brand);
