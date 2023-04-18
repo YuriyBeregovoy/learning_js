@@ -86,3 +86,44 @@
 // Логічне НЕ (оператор !):
 // console.log(!0);
 
+// ЗАДАЧІ/////////////////////
+// напиши скрипт, який перевіряє входження числа у відрізок між x1 і x2.
+
+const x1 = 10;
+const x2 = 30;
+let number = 15;
+
+// console.log(`Число ${number} попадає у відрізок до ${x1}? `, number < x1);
+// console.log(`Число ${number} попадає у відрізок після ${x2}? `, number > x2);
+
+// const res = number > x1 && number < x2;
+// console.log(`Число ${number} попадає у відрізок від ${x1} до ${x2}? `, res);
+
+// number > x1 && number < x2
+// 50 > 10 && 50 < 30
+// true && false
+// false
+
+
+// number > x1 && number < x2
+// 15 > 10 && 15< 30
+// true && true
+// true
+
+// number > x1 && number < x2
+// 5 > 10 && 5 < 30
+// false && true
+// false
+
+// const res = number < x1 || number > x2;
+// console.log(`Число ${number} попадає у відрізок до ${x1} або після ${x2}? `, res);
+
+// number < x1 || number > x2
+// 150 < 10 || 150 > 30
+// false || true
+// true
+
+// number < x1 || number > x2
+// 25 < 10 || 25 > 30
+// false || false
+// false
