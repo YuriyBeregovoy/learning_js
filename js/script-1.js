@@ -318,15 +318,31 @@
 //   const GOLD_DISCOUNT = 0.1;
 //   let discount;
 //   // Change code below this line
-//  if (totalSpent >= 50000) { 
+//  if (totalSpent >= 50000) {
 //     discount = GOLD_DISCOUNT;
-//   } else if (totalSpent >= 20000 && totalSpent < 50000) { 
+//   } else if (totalSpent >= 20000 && totalSpent < 50000) {
 //    discount = SILVER_DISCOUNT;
-//   } else if (totalSpent >= 5000 && totalSpent < 20000) { 
+//   } else if (totalSpent >= 5000 && totalSpent < 20000) {
 //   discount = BRONZE_DISCOUNT;
 //   } else {
 //     discount = BASE_DISCOUNT;
 //   }
 //   // Change code above this line
 //   return discount;
+// }
+
+// Функція formatMessage(message, maxLength) приймає рядок (параметр message) і форматує його, якщо довжина перевищує значення в параметрі maxLength.
+
+// Доповни код функції таким чином, що якщо довжина рядка:
+
+// не перевищує maxLength, функція повертає його в початковому вигляді.
+// більша за maxLength, то функція обрізає рядок до maxLength символів і додає в кінець три крапки "...", після чого повертає скорочену версію.
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   result = message.length <= maxLength ? message : message.slice(0, maxLength) + "...";
+
+//   /// Change code above this line
+//   return result;
 // }
