@@ -346,3 +346,32 @@
 //   /// Change code above this line
 //   return result;
 // }
+// Change code below this line
+
+// Привязка інпутут і кнопки з html через js//////////////////////////
+
+// const btnAdd = document.querySelector( 'button' );
+// const valueInput = document.querySelector( 'input[data-vale]' )
+// const outputEl = document.querySelector( '.js-output span' );
+// console.log(outputEl);
+// let total = 0;
+// // btnAdd.textContent = 'hehehehehe';
+
+// btnAdd.addEventListener('click', function () {
+//   console.log('click hehehehe');
+//   const value = Number(valueInput.value);
+//   console.log(value);
+
+//   total += value;
+//   // console.log('total: ', total);
+//   outputEl.textContent = total;
+
+//   valueInput.value = '';
+// });
+
+
+
+
+
+
+
