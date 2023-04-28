@@ -370,8 +370,28 @@
 // });
 
 
+// const clients = ["Mango", "Ajax", "Poly"];
 
+// for (const client of clients) {
+//   console.log(client);
+// }
 
+// const string = "javascript";
 
+// for (const character of string) {
+//   console.log(character);
+// }
+// const name = "Mango";
+// console.log(name.split("")); // ["M", "a", "n", "g", "o"]
 
+// const fruit = "apple";
 
+// if (fruit === "apple" || fruit === "strawberry") {
+//   console.log("It is a red fruit!");
+// }
+
+// function getExtremeElements(array) {
+//   return [array[0], array[array.length - 1]];
+// }
+// let result = getExtremeElements([1, 2, 3, 4, 5]);
+// console.table(result);
