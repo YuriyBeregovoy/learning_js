@@ -390,8 +390,125 @@
 //   console.log("It is a red fruit!");
 // }
 
+
+
+
+
 // function getExtremeElements(array) {
 //   return [array[0], array[array.length - 1]];
 // }
 // let result = getExtremeElements([1, 2, 3, 4, 5]);
 // console.table(result);
+
+
+
+
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//    // Change code below this line
+
+//   message = message.split(' ').length * pricePerWord;
+  
+ //   console.log(message);
+
+// }
+// calculateEngravingPrice("JavaScript is in my blood", 10)
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 10));
+
+
+
+
+// function slugify(title) {
+//   // Change code below this line
+
+//   title = title.split(' ').join('-');
+  
+//   console.log(title.toLowerCase());
+//   // Change code above this line
+// }
+// slugify("Arrays for begginers");
+
+
+
+
+// function makeArray(firstArray, secondArray, maxLength) {
+//   return firstArray.concat(secondArray).length < maxLength ?  firstArray.concat(secondArray) : firstArray.concat(secondArray).slice(0, maxLength);
+// }
+// console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+// console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));
+
+
+
+// const max = 10;
+// for (let i = 0; i < max; i += 1) {
+//   console.log(`${max} % ${i} = `, max % i);
+// }
+
+
+
+// const target = 10;
+// let sum = 0;
+
+// for (let i = 0; i <= target; i += 1) {
+//   sum += i;
+// }
+
+// console.log(sum);
+
+
+
+
+// const planets = ["Earth", "Mars", "Venus"];
+
+// for (let i = 0; i < planets.length; i += 1) {
+//   console.log(planets[i]);
+// }
+
+
+
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+
+//   for (const value of order) {
+//     total += value;
+// }
+
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+
+
+
+
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   for (let i = 0; i < order.length; i += 1) {
+//     console.log(order[i]);
+//     total += order[i];
+//   console.log(total);
+// }
+
+//  }
+// calculateTotalPrice([12, 85, 37, 4]);
+
+
+
+
+
+// function findLongestWord(string) {
+  
+//   string = string.split(' ');
+//   let maxWord = string[0];
+
+//   for (const word of string) {
+   
+//       if (word.length > maxWord.length) {
+//           maxWord = word;
+//     }
+//   }
+//   return maxWord;
+// }
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
