@@ -518,7 +518,6 @@
 
 
 // function filterArray(numbers, value) {
-//    // Change code below this line
 //   const newArray = [];
 //   for (const number of numbers) {
 //     if (number > value) {
@@ -527,7 +526,6 @@
 //   }
 
 // return newArray;
-//   // Change code above this line
 // }
 
 // console.log(filterArray([1, 2, 3, 4, 5], 3));
@@ -552,7 +550,29 @@
 
 
 
+// function getEvenNumbers(start, end) {
+//    // Change code below this line
+//   const arrayEvenNumbers = [];
+// for (let i = start; i <= end; i += 1){
+    
+//   if (i % 2 === 0) {arrayEvenNumbers.push(i);}
+//   }
+// return  arrayEvenNumbers;
+//     // Change code above this line
+//   }
+// console.log(getEvenNumbers(6, 12));
 
 
 
 
+// function includes(array, value) {
+
+//   for (let item of array) {
+//     if (item === value) {
+//       return true;
+//    }
+//   }
+//   return false;
+// }
+// console.log(includes([1, 2, 3, 4, 5], 3));
+// console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus"))
