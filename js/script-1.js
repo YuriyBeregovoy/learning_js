@@ -512,3 +512,47 @@
 //   return maxWord;
 // }
 // console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+
+
+
+
+
+// function filterArray(numbers, value) {
+//    // Change code below this line
+//   const newArray = [];
+//   for (const number of numbers) {
+//     if (number > value) {
+//     newArray.push(number);
+//     }
+//   }
+
+// return newArray;
+//   // Change code above this line
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+// console.log(filterArray([12, 24, 8, 41, 76], 20));
+
+
+
+
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+// const arrayCommonElements = [];
+//   for (const item of array1) {
+//     if (array2.includes(item)) {
+//    arrayCommonElements.push(item);
+//     }
+//   }
+// return arrayCommonElements;
+
+//  // Change code above this line
+// }
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
+
+
+
+
+
+
+
