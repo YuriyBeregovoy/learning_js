@@ -705,8 +705,33 @@
 // return  null;
 // }
 
-// console.log(getProductPrice("Engine"));
+// console.log(getProductPrice("Radar"));
 
 
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+
+// function getAllPropValues(propName) {
+
+//   const allPropValues = [];
+
+//   for (const product of products) {
+//       if (propName === "name") {
+//         allPropValues.push(product.name);
+//     } else if (propName === "price") {
+//         allPropValues.push(product.price);
+//     } else if (propName === "quantity") {
+//         allPropValues.push(product.quantity);
+//     }
+// }
+// return allPropValues;
+// }
+
+// console.log(getAllPropValues("quantity"));
 
 
