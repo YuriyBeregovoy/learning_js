@@ -632,16 +632,37 @@
  
 // console.log(values)
 
-function countProps(object) {
+
+
+
+// function countProps(object) {
+//   // Change code below this line
+//   let propCount = 0;
+
+//   const keys = Object.keys(object);
+//   console.log(keys);
+// propCount = keys.length;
+
+//   return propCount;
+//   // Change code above this line
+// }
+// console.log(countProps({ name: "Mango", age: 2 }));
+
+
+function countTotalSalary(salaries) {
+  let totalSalary = 0;
   // Change code below this line
-  let propCount = 0;
-
-  const keys = Object.keys(object);
-  console.log(keys);
-propCount = keys.length;
-
-  return propCount;
+  const values = Object.values(salaries);
+  for (const salary of values) {
+    totalSalary += salary;
+  }
   // Change code above this line
+  return totalSalary;
 }
 
-console.log(countProps({ name: "Mango", age: 2 }));
+console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }));
+
+
+
+
+
