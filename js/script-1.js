@@ -594,3 +594,54 @@
 // const lastTag = apartment.tags[apartment.tags.length-1];
 
 // console.log(lastTag)
+
+
+
+
+
+
+// function countProps(object) {
+//   let propCount = 0;
+//   // Change code below this line
+//   for (const property in object) {
+ 
+//     if (object.hasOwnProperty(property)) {
+//       propCount +=1;
+//     }
+//   }
+
+//   // Change code above this line
+//   return propCount;
+// }
+// console.log(countProps({ name: "Mango", age: 2 }));
+
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// console.log(keys);
+// for (const key of keys) {
+//   console.log(key);
+//   values.push(apartment[key]);
+// }
+ 
+// console.log(values)
+
+function countProps(object) {
+  // Change code below this line
+  let propCount = 0;
+
+  const keys = Object.keys(object);
+  console.log(keys);
+propCount = keys.length;
+
+  return propCount;
+  // Change code above this line
+}
+
+console.log(countProps({ name: "Mango", age: 2 }));
