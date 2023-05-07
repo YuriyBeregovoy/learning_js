@@ -649,18 +649,46 @@
 // console.log(countProps({ name: "Mango", age: 2 }));
 
 
-function countTotalSalary(salaries) {
-  let totalSalary = 0;
-  // Change code below this line
-  const values = Object.values(salaries);
-  for (const salary of values) {
-    totalSalary += salary;
-  }
-  // Change code above this line
-  return totalSalary;
-}
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   // Change code below this line
+//   const values = Object.values(salaries);
+//   for (const salary of values) {
+//     totalSalary += salary;
+//   }
+//   // Change code above this line
+//   return totalSalary;
+// }
 
-console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }));
+// console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }));
+
+
+
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+
+// for (const color of colors) {
+//   // console.log(color);
+//   hexColors.push(color.hex);
+//   console.log(hexColors);
+
+//   rgbColors.push(color.rgb);
+//   console.log(rgbColors);
+
+// }
+
+
+
+
 
 
 
