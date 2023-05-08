@@ -735,3 +735,33 @@
 // console.log(getAllPropValues("quantity"));
 
 
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   // Change code below this line
+//   return {  completed, category, priority, ...data };
+//   // Change code above this line
+// }
+
+// console.log(makeTask({ category: 'Homemade', priority: 'Low', text: 'Take out the trash' }))
+
+
+// // Change code below this line
+// function addOverNum(num, ...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > num) {
+//       total += arg;
+//     }
+    
+//   }
+
+//   return total;
+//   // Change code above this line
+// }
+
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
+
+
