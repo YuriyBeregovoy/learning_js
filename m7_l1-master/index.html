@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 7 Lesson 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>How much doest it cost?</h1>
+      <form id="productForm" class="form">
+        <label for="price">Ціна грн</label>
+        <input type="text" id="price" name="price" value="50" />
+        <label for="quantity"
+          >Кількість <span id="amount" class="amount">1</span>кг</label
+        >
+        <input
+          type="range"
+          id="quantity"
+          name="quantity"
+          value="1"
+          min="1"
+          max="10"
+        />
+      </form>
+      <p id="totalPrice" class="text-right total"></p>
+    </div>
+    <div style="color: white" class="wrapper">
+      <div
+        style="
+          margin: auto;
+          width: 220px;
+          height: 1420px;
+          background-color: #673ab7;
+        "
+        id="parent"
+      >
+        Parent
+        <div
+          style="
+            margin: auto;
+            width: 170px;
+            height: 170px;
+            background-color: #448aff;
+          "
+          id="child"
+        >
+          Child
+          <div
+            style="
+              margin: auto;
+              width: 120px;
+              height: 120px;
+              background-color: #ff9800;
+            "
+            id="descendant"
+          >
+            Descendant
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
